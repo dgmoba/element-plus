@@ -10,7 +10,7 @@
 import { reactive } from 'vue'
 import { ElMessage } from 'element-plus'
 const config = reactive({
-  max: 3,
+  max: 5,
 })
 const open = () => {
   ElMessage('This is a message.')
